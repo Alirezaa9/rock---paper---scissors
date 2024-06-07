@@ -35,7 +35,7 @@ body {
     background-color: deepskyblue;
 }
 
-#playerDisplay, computrDisplay{
+#playerDisplay, #computerDisplay{
     font-size: 3rem;
 }
 
