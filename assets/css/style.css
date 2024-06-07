@@ -28,4 +28,13 @@ body {
     background-color: deepskyblue;
     border: 0cm;
     cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.choices button:hover {
+    background-color: deepskyblue;
+}
+
+#playerDisplay, computrDisplay{
+    font-size: 3rem;
 }
