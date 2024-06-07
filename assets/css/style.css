@@ -38,3 +38,9 @@ body {
 #playerDisplay, computrDisplay{
     font-size: 3rem;
 }
+
+#resultDisplay {
+    font-size: 5.5rem;
+    margin: 20px 0;
+    color: azure;
+}
