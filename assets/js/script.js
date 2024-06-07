@@ -10,5 +10,20 @@ function playGame(playerChoice) {
     
     playerDisplay.textContent = "PLAYER: " + playerChoice;
     computerDisplay.textContent = "COMPUTER: " + computerChoice;
+
+    if (playerChoice === computerChoice) {
+        resultDisplay.textContent = "It's a tie!";
+    } else if (
+        (playerChoice === "Rock" && computerChoice === "Scissors") ||
+        (playerChoice === "Paper" && computerChoice === "Rock") ||
+        (playerChoice === "Scissors" && computerChoice === "Paper")
+    ) {
+        resultDisplay.textContent = "Player wins!";
+    } else {
+        resultDisplay.textContent = "Computer wins!";
+    }
     console.log()
+
 }
+
+
