@@ -18,10 +18,11 @@ function playGame(playerChoice) {
         (playerChoice === "Paper" && computerChoice === "Rock") ||
         (playerChoice === "Scissors" && computerChoice === "Paper")
     ) {
-        resultDisplay.textContent = "Player wins!";
+        resultDisplay.textContent = "You win!";
     } else {
         resultDisplay.textContent = "Computer wins!";
     }
+
     console.log()
 
 }
