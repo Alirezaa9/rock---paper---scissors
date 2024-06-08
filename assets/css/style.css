@@ -57,4 +57,6 @@ body {
     left: 10px;
 }
 
-
+.scoreDisplay {
+    font-size: 2.5rem;
+}
