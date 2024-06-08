@@ -44,3 +44,15 @@ body {
     margin: 20px 0;
     color: azure;
 }
+
+.logo-container img {
+    float: left;
+    width: 75px;
+    height: 75px;
+}
+
+.logo-container h2 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
