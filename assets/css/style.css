@@ -22,7 +22,7 @@ body {
 
 .choices button{
     font-size: 8rem;
-    min-width: 120;
+    min-width: 120px;
     margin: 0 5px;
     border-radius: 400px;
     background-color: deepskyblue;
