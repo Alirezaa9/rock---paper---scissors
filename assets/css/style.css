@@ -20,7 +20,7 @@ body {
     min-width: 120px;
     margin: 0 5px;
     border-radius: 400px;
-    background-color: rgb(53, 121, 143);
+    background-color: white;
     border: 0cm;
     cursor: pointer;
     transition: background-color 0.5s ease;
