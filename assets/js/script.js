@@ -1,4 +1,5 @@
 // ROCK PAPER SCISSORS
+/*jshint esversion: 6 */
 
 const choices = ["Rock", "Paper", "Scissors"];
 const playerDisplay = document.getElementById("playerDisplay");

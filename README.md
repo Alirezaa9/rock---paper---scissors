@@ -22,8 +22,7 @@ The styling is handled by CSS with a simple layout to focus user attention on th
 To deploy this project, simply clone the repository and open `index.html` in any modern web browser.
 
 ```bash
-git clone https://your-repository-url.git
-cd your-project-directory
+git clone https://github.com/Alirezaa9/rock---paper---scissors.git
 open index.html
 ```
 
@@ -44,7 +43,7 @@ To contribute to this project, please create a pull request or raise an issue on
 
 ## Acknowledgements
 
-- The JavaScript code for the game logic was adapted from an existing Rock Paper Scissors tutorial. This adaptation can be found [here](URL_to_original_source). The code was used under the terms of its license, and modifications were made to fit the project's specific needs.
+- The JavaScript code for the game logic and some desing ideas was adapted from an existing Rock Paper Scissors tutorial. This adaptation can be found [here](https://youtu.be/3uKdQx-SZ5A?si=1JrRGV-GyLuzI25b). The code was used under the terms of its license, and modifications were made to fit the project's specific needs.
 
 ## Additional Notes
 
