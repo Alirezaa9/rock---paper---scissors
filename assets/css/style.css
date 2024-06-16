@@ -4,7 +4,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: rgb(50, 106, 124);
+    background-color: rgb(53, 121, 143);
     color: #ffffff;
     align-items: center;
     min-height: 100vh;
@@ -20,14 +20,14 @@ body {
     min-width: 120px;
     margin: 0 5px;
     border-radius: 400px;
-    background-color: deepskyblue;
+    background-color: rgb(53, 121, 143);
     border: 0cm;
     cursor: pointer;
     transition: background-color 0.5s ease;
 }
 
 .choices button:hover {
-    background-color: deepskyblue;
+    background-color: rgb(53, 121, 143);
 }
 
 #playerDisplay, #computerDisplay{
