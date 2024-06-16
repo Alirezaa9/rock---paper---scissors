@@ -4,7 +4,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    background-color: deepskyblue;
+    background-color: rgb(50, 106, 124);
     color: #ffffff;
     align-items: center;
     min-height: 100vh;
