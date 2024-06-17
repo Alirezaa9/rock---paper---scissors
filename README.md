@@ -53,6 +53,7 @@ To contribute to this project, please create a pull request or raise an issue on
 
 ## Screenshots
 <img width="960" alt="Screenshot (21)" src="https://github.com/Alirezaa9/rock---paper---scissors/assets/145472044/25e57fee-4cf8-4ce1-b0a9-21fd3822a440">
+<img width="960" alt="Screenshot (22)" src="https://github.com/Alirezaa9/rock---paper---scissors/assets/145472044/0b608c27-d7eb-4e3a-b1b1-13c7d929defe">
 
 
 ## Final Checklist
