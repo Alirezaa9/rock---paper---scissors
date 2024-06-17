@@ -2,7 +2,6 @@
 
 This web application is a simple and interactive Rock Paper Scissors game designed to be played in a web browser. It allows users to play against the computer, displaying scores and results dynamically. The purpose of this application is to provide a fun, interactive way to pass time, and it is intended for users of all ages who enjoy classic games.
 
-![Screenshot (21)](https://github.com/Alirezaa9/rock---paper---scissors/assets/145472044/d17ffbf1-39f9-4ae9-b8d0-7810e6501b0d)
 
 ## Features
 
@@ -51,6 +50,9 @@ To contribute to this project, please create a pull request or raise an issue on
 
 - Please ensure all UI texts are in English for consistency and accessibility.
 - The `lang` attribute in the HTML document has been set to "en" to align with this requirement.
+
+## Screenshots
+<img width="960" alt="Screenshot (21)" src="https://github.com/Alirezaa9/rock---paper---scissors/assets/145472044/25e57fee-4cf8-4ce1-b0a9-21fd3822a440">
 
 
 ## Final Checklist
