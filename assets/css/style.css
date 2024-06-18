@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -8,14 +9,40 @@ body {
     color: #ffffff;
     align-items: center;
     min-height: 100vh;
-
 }
+
+/* For iPhone (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px; 
+        padding: 10px;
+    }
+    
+}
+
+/* For iPad (portrait and landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        font-size: 16px; 
+        padding: 20px; 
+    }
+}
+
+/* For laptop (larger screens) */
+@media only screen and (min-width: 1025px) {
+    body {
+        font-size: 18px; 
+        padding: 30px; 
+    }
+}
+
 
 .choices{
     margin-bottom: 30px;
 }
 
 .choices button{
+    width: 75%;
     font-size: 8rem;
     min-width: 120px;
     margin: 0 5px;
