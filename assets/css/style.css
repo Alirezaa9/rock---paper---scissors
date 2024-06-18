@@ -29,11 +29,22 @@ body {
     #resultDisplay {
         font-size: 3rem;
     }
+    .logo-container img {
+        width: 50px;
+        height: 50px;
+    }
 
+    .logo-container h2 {
+        top: 10px;
+        left: 5px;
+        font-size: 1.5rem;
+    }
 
-
-    
+    .scoreBoard {
+        font-size: 1.5rem;
+    }
 }
+
 
 /* For iPad (portrait and landscape) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -53,6 +64,20 @@ body {
 
     #resultDisplay {
         font-size: 4.5rem;
+    }
+    .logo-container img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-container h2 {
+        top: 15px;
+        left: 8px;
+        font-size: 2rem;
+    }
+
+    .scoreBoard {
+        font-size: 2rem;
     }
 
 
@@ -76,6 +101,21 @@ body {
 
     #resultDisplay {
         font-size: 5.5rem;
+    }
+
+    .logo-container img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .logo-container h2 {
+        top: 18px;
+        left: 10px;
+        font-size: 2.5rem;
+    }
+
+    .scoreBoard {
+        font-size: 2.5rem;
     }
 
 
