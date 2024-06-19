@@ -1,7 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -13,17 +12,17 @@ body {
 }
 
 .choices {
-    margin-bottom: 30px;
+    margin-bottom: 3vw;
 }
 
 .choices button {
     width: 75%;
-    font-size: 8rem;
-    min-width: 50px;
-    margin: 0 5px;
+    font-size: 5vw;
+    min-width: 50vw;
+    margin:0.5%;
     border-radius: 400px;
     background-color: white;
-    border: 0;
+    border: 1;
     cursor: pointer;
     transition: background-color 0.5s ease;
 }
