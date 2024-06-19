@@ -1,34 +1,99 @@
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center; 
     background-color: rgb(53, 121, 143);
     color: #ffffff;
     align-items: center;
+    text-align: center;
     min-height: 100vh;
+}
+
+.choices {
+    margin-bottom: 30px;
+}
+
+.choices button {
+    width: 75%;
+    font-size: 8rem;
+    min-width: 50px;
+    margin: 0 5px;
+    border-radius: 400px;
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.choices button:hover {
+    background-color: rgb(53, 121, 143);
+}
+
+#playerDisplay, #computerDisplay {
+    font-size: 3rem;
+}
+
+#resultDisplay {
+    font-size: 5.5rem;
+    margin: 20px 0;
+    color: azure;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    float: right;
+    width: 75px;
+    height: 75px;
+}
+
+.logo-container h2 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+
+.scoreBoard {
+    font-size: 2.5rem;
+}
+
+#playerScoreDisplay {
+    color: rgb(19, 214, 19);
+}
+
+#computerScoreDisplay {
+    color: rgb(250, 11, 11);
 }
 
 /* For iPhone (portrait and landscape) */
 @media only screen and (max-width: 767px) {
     body {
-        font-size: 14px; 
-        padding: 10px;
+        font-size: 10px;
+        padding: 20px;
     }
+
     .choices button {
-        font-size: 4rem;
-        width: 100%;
-        min-width: 80px;
+        font-size: 2rem;         
+        width: 50%;
+        min-width: 20px;
     }
+
     #playerDisplay, #computerDisplay {
         font-size: 1.5rem;
     }
 
     #resultDisplay {
-        font-size: 3rem;
+        font-size: 1rem;
     }
+
     .logo-container img {
         width: 50px;
         height: 50px;
@@ -37,20 +102,19 @@ body {
     .logo-container h2 {
         top: 10px;
         left: 5px;
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .scoreBoard {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 }
 
-
-/* For iPad (portrait and landscape) */
+/* Media query for iPad (portrait and landscape) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     body {
-        font-size: 16px; 
-        padding: 20px; 
+        font-size: 10px;
+        padding: 20px;
     }
 
     .choices button {
@@ -58,6 +122,7 @@ body {
         width: 80%;
         min-width: 100px;
     }
+
     #playerDisplay, #computerDisplay {
         font-size: 2.5rem;
     }
@@ -65,6 +130,7 @@ body {
     #resultDisplay {
         font-size: 4.5rem;
     }
+
     .logo-container img {
         width: 60px;
         height: 60px;
@@ -79,19 +145,18 @@ body {
     .scoreBoard {
         font-size: 2rem;
     }
-
-
 }
 
-/* For laptop (larger screens) */
+/* Media query for laptop (larger screens) */
 @media only screen and (min-width: 1025px) {
     body {
-        font-size: 18px; 
-        padding: 30px; 
+        font-size: 18px;
+        padding: 30px;
     }
+
     .choices button {
-        font-size: 8rem;
-	width: 75%;
+        font-size: 4vw; 
+        width: 75%;
         min-width: 120px;
     }
 
@@ -117,62 +182,4 @@ body {
     .scoreBoard {
         font-size: 2.5rem;
     }
-
-
 }
-
-
-.choices{
-    margin-bottom: 30px;
-}
-
-.choices button{
-    width: 75%;
-    font-size: 8rem;
-    min-width: 120px;
-    margin: 0 5px;
-    border-radius: 400px;
-    background-color: white;
-    border: 0cm;
-    cursor: pointer;
-    transition: background-color 0.5s ease;
-}
-
-.choices button:hover {
-    background-color: rgb(53, 121, 143);
-}
-
-#playerDisplay, #computerDisplay{
-    font-size: 3rem;
-}
-
-#resultDisplay {
-    font-size: 5.5rem;
-    margin: 20px 0;
-    color: azure;
-}
-
-.logo-container img {
-    float: left;
-    width: 75px;
-    height: 75px;
-}
-
-.logo-container h2 {
-    position: relative;
-    top: 18px;
-    left: 10px;
-}
-
-.scoreBoard {
-    font-size: 2.5rem;
-}
-
-#playerScoreDisplay{
-    color:rgb(19, 214, 19);
-}
-
-#computerScoreDisplay{
-    color: rgb(250, 11, 11);
-}
-
