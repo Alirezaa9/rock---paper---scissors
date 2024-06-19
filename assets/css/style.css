@@ -54,10 +54,7 @@ body {
     height: 75px;
 }
 
-.logo-container h2 {
-    position: relative;
-    top: 18px;
-}
+
 
 .scoreBoard {
     font-size: 2.5rem;
@@ -133,11 +130,6 @@ body {
         height: 60px;
     }
 
-    .logo-container h2 {
-        top: 15px;
-        left: 8px;
-        font-size: 2rem;
-    }
 
     .scoreBoard {
         font-size: 2rem;
@@ -170,11 +162,6 @@ body {
         height: 75px;
     }
 
-    .logo-container h2 {
-        top: 18px;
-        left: 10px;
-        font-size: 2.5rem;
-    }
 
     .scoreBoard {
         font-size: 2.5rem;
