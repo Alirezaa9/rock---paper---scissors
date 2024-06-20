@@ -52,6 +52,7 @@ To contribute to this project, please create a pull request or raise an issue on
 - The `lang` attribute in the HTML document has been set to "en" to align with this requirement.
 
 ## Screenshots
+![Screenshot 2024-06-19 at 3 56 38 PM](https://github.com/Alirezaa9/rock---paper---scissors/assets/145472044/4601a827-ad2c-4661-be30-4c6cbd889db4)
 
 
 ## Final Checklist
