@@ -54,6 +54,8 @@ To contribute to this project, please create a pull request or raise an issue on
 ## Screenshots
 ![Screenshot 2024-06-19 at 3 56 38 PM](https://github.com/Alirezaa9/rock---paper---scissors/assets/145472044/4601a827-ad2c-4661-be30-4c6cbd889db4)
 
+## testing
+![Screenshot 2024-06-21 at 10 02 56 AM (1)](https://github.com/Alirezaa9/rock---paper---scissors/assets/145472044/4c79e707-d105-40f4-a4b0-e648da83814c)
 
 ## Final Checklist
 
